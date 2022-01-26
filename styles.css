@@ -28,16 +28,23 @@
    margin: 0 auto;
    padding: 0 50px;
 }
+
+.navbar-container a {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
   
-  #navbar-logo {
+  #navbar-logo  {
     background-size: 100%;
     display: flex;
     align-items: center;
     
-  }
-
-  .nav-logo {
-    margin-right: 1rem;
   }
   
   .navbar-menu {
@@ -172,7 +179,7 @@
     }
   }
   
-  /* Home Section */
+  /********* Home Section ************/
   
   .Home {
     background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
@@ -184,7 +191,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    height: 92vh;
     /*background-color: #FABE00;*/
     background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
     z-index: 1;
@@ -226,8 +233,10 @@
   .highlight {
     border-bottom: 4px solid rgb(132, 0, 255);
   }
-  
 
+/********* End Home Section ************/  
+  
+/*********** Register Button ***********/
   .register-btn {
   font-size: 2rem;
   background: #000000;
@@ -249,16 +258,17 @@
 transform: scale(1.2);
 }
 
+/********* End Register Button ********/
 
 /********* Footer CSS **********/
-/*******************************/
+
 .footer {
   position: relative;
   background: #000000;
 }
 
 .footer .container-fluid {
-  padding: 60px 0 0 0;
+  padding: 20px 0 0 0;
 }
 
 .footer .footer-info {
@@ -378,12 +388,4 @@ transform: scale(1.2);
   }
 }
 
-  
-  /* Smartphone Responsive */
-
-  @media screen and (max-width: 1100px) {
-    .Home-img--container {
-      display: flex;
-      justify-content: center;
-    }
-  }
+/********** End Footer CSS ***********/

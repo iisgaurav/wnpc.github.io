@@ -1,0 +1,8 @@
+  /* Smartphone Responsive */
+
+  @media screen and (max-width: 1100px) {
+    .Home-img--container {
+      display: flex;
+      justify-content: center;
+    }
+  }
