@@ -389,3 +389,174 @@ transform: scale(1.2);
 }
 
 /********** End Footer CSS ***********/
+
+/** Team Section **/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+}
+
+.col {
+  font-size: 4rem; 
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: 8px;
+  padding-top: 2rem;
+}
+.my-3{
+  font-family: 'Sansita Swashed', cursive;
+}
+
+h3 {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+#team i {
+  font-size: 26px;
+  color: #555;
+}
+#team p {
+  font-weight: 500;
+}
+#team .card {
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #000000;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+
+#team .card:hover {
+  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+#team .card:hover h3,
+#team .card:hover i {
+  color: rgb(0, 0, 0);
+}
+/**End Team Section **/
+/**about us**/
+*{
+	margin:0;
+	padding:0;
+}		
+.background{
+  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+}	
+.firstsection{
+	height:100vh;
+}
+	
+.box-main{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:rgb(0, 0, 0);
+	max-width:50%;
+	margin:auto;
+	height:80%;
+}
+.text-big{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 4rem;
+	text-align:center;
+}
+.text-small{	
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 18px;
+	text-align:center;
+}
+.center{
+	text-align: center;
+}
+/**end about us**/
+
+/**contact us**/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+  background-color: black;
+  height:100vh;
+  display: inline;
+  justify-content: center;
+  align-items:center;
+}
+
+form {
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:60px;
+  margin: 70px auto;
+  position:relative;
+  z-index:1;
+}
+
+form > div{
+  position:absolute;
+  top:0;
+  left:50%;
+  padding:0 20px;
+  transform:translate(-50%,-50%);
+  background-color:black;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  text-align:center;
+}
+
+form > div > img{
+  filter:invert(1);
+  width:100px;
+}
+
+form > input,
+form > textarea {
+  padding: 12px;
+  margin: 12px auto;
+  border: 1px solid #ccc;
+  color: #ddd;
+  background-color: #222;
+  border-radius: 4px;
+  display: block;
+  width: 70vw;
+}
+
+form > textarea{
+  height:100px;
+  resize:none;
+}
+
+form > input[type="submit"] {
+  max-width: 20vw;
+  padding-left: 1%;
+  padding-right: 1%;
+  cursor: pointer;
+  transition: 0.35s;
+}
+
+form > input[type="submit"]:hover {
+  background-color: #555;
+}
+
+
+/**end contact us**/
